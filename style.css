@@ -1,7 +1,190 @@
+:root {
+  --burntSienna: #e57051;
+  --redDamask: #d35649;
+  --havelockBlue: #509ad8;
+  --steelBlue: #457db4;
+  --pewter: #97a3a4;
+  --tundora: #444;
+  --mineShaft: #1f1f1f;
+  --porsche: #e6ac5a;
+  --flamingo: #f15838;
+}
+
+/* TAGS */
+
 body {
+  display: flex;
+  width: 100vw;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
   overflow-x: hidden;
-  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  padding: 5px 40px;
+}
+
+/* CLASSES */
+
+.menu {
+  height: 20px;
+}
+
+.menu-text {
+  display: none;
+}
+
+.menu-link:hover {
+  position: relative;
+  top: -2px;
+  opacity: 0.7;
+}
+
+.spread {
+  justify-content: space-between;
+}
+
+.logo-cat {
+  display: inline-flex;
+  width: 80px;
+  height: 65px;
+  background-size: 80px 65px;
+  background-position: center;
+  background-image: url(./resources/cat-white.svg);
+}
+
+.icon {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-position: center;
+  margin-right: 12px;
+}
+
+.m-glass {
+  background-image: url(./resources/icon-search-glass.svg);
+}
+
+.user {
+  background-image: url(./resources/user.svg);
+}
+
+.blog {
+  background-image: url(./resources/blog.svg);
+}
+
+.more {
+  background-image: url(./resources/more.svg);
+}
+
+/* MODIFIERS */
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
+}
+
+.font-big {
+  font-size: 2rem;
+}
+
+.font-md {
+  font-size: 1rem;
+}
+
+.font-sml {
+  font-size: 0.9rem;
+}
+
+.center-x {
+  justify-self: center;
+}
+
+.center-y {
+  align-self: center;
+  align-items: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.white {
+  color: white;
+}
+
+.red-damask {
+  color: var(--redDamask);
+}
+
+.bg-red-damask {
+  background-color: var(--redDamask);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+
+  .icon {
+    display: inline-flex;
+    width: 22px;
+    height: 22px;
+    background-size: 22px 22px;
+    margin-right: 14px;
+  }
+
+  .logo-cat {
+    display: inline-flex;
+    width: 80px;
+    height: 65px;
+    background-size: 80px 65px;
+    background-position: center;
+    background-image: url(./resources/cat-white.svg);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .menu-text {
+    display: flex;
+  }
+
+  .icon {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    margin-right: 7px;
+  }
 }
