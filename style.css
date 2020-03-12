@@ -10,6 +10,15 @@
   --flamingo: #f15838;
 }
 
+@font-face {
+  font-family: "Rocko Bold";
+  src: url(./resources/fonts/RockoFLF-Bold.ttf);
+}
+@font-face {
+  font-family: "Rocko";
+  src: url(./resources/fonts/RockoFLF.ttf);
+}
+
 /* TAGS */
 
 * {
@@ -21,8 +30,8 @@ body {
   padding: 1px;
   margin: 0;
   padding: 0;
-  font-family: "Ubuntu", sans-serif;
   overflow-x: hidden;
+  font-family: "Rocko";
 }
 
 a {
@@ -51,6 +60,7 @@ main {
 
 label {
   display: block;
+  color: var(--tundora);
 }
 
 input {
@@ -65,10 +75,6 @@ button {
   outline: none;
 }
 
-form {
-  width: 80%;
-}
-
 /* ID's */
 
 #search-input {
@@ -80,6 +86,10 @@ form {
 }
 
 /* CLASSES */
+
+.main-search {
+  width: 80%;
+}
 
 .menu {
   height: 20px;
@@ -181,25 +191,46 @@ form {
 .help {
   justify-content: center;
   text-align: center;
-  background-color: var(--pewter);
+  background-color: white;
   color: black;
   padding: 10px;
   width: 180px;
   border-radius: 5px;
-  opacity: 0.8;
-  line-height: 1.5rem;
+  opacity: 0.7;
+  font-size: 1.1rem;
+  margin: 0 auto 40px auto;
 }
 
 .help:hover,
 .help:visited {
+  opacity: 1;
   color: white;
   background-color: var(--havelockBlue);
 }
+
 .explanation {
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr 20px;
+
   height: 100%;
   width: 100%;
-  margin-top: 50px;
   background-color: white;
+}
+
+.four-steps {
+  grid-column: 2/4;
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.first-row {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.second-row {
+  grid-column: 2/4;
+  grid-row: 3/4;
 }
 
 .search-bar {
@@ -223,6 +254,24 @@ form {
 .brand {
   font-size: 1.7rem;
 }
+
+.step {
+  color: var(--tundora);
+  text-align: center;
+  padding: 20px;
+}
+
+.step .icon {
+  margin: 0 auto;
+}
+
+.step p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-align: justify;
+  margin: 0 10%;
+}
+
 
 /* MODIFIERS */
 
@@ -292,14 +341,6 @@ form {
   text-transform: uppercase;
 }
 
-.bold {
-  font-weight: 500;
-}
-
-.bolder {
-  font-weight: 700;
-}
-
 .white {
   color: white;
 }
@@ -318,33 +359,6 @@ form {
 
 .bg-red-damask {
   background-color: var(--redDamask);
-}
-
-.explanation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.step {
-  display: flex;
-  flex-direction: column;
-  color: var(--tundora);
-  text-align: center;
-}
-
-.step .icon {
-  margin: 0 auto;
-}
-
-.step p {
-  font-size: 1rem;
-  line-height: 1.6rem;
-}
-
-.col-row {
-  display: flex;
-  flex-direction: column;
 }
 
 /* MEDIA QUERIES */
@@ -402,6 +416,7 @@ form {
     background-position: center;
     background-image: url(./resources/cat-white.svg);
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -427,8 +442,12 @@ form {
     background-size: 50px 50px;
   }
 
-  .col-row {
-    display: flex;
-    flex-direction: row;
+  .first-row {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .second-row {
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 }
