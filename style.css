@@ -304,12 +304,17 @@ footer {
 
 .sub-cont-about > * {
   text-align: center;
-  width: 300px;
+  width: 400px;
 }
 
 .sub-cont-about h2 {
   text-transform: uppercase;
   color: white;
+}
+
+.sub-cont-about p {
+  font-size: 0.8rem;
+  color: var(--pewter);
 }
 
 .first-row {
