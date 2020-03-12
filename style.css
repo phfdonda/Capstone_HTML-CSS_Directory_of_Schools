@@ -30,10 +30,11 @@ html {
 }
 
 body {
+  max-width: 1367px;
+  margin: 0 auto;
   display: grid;
-  grid-template-rows: 120px 1500px 500px;
+  grid-template-rows: 120px 1200px;
   width: 100%;
-  margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: "Rocko";
@@ -87,7 +88,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--mineShaft);
+  background-color: black;
 }
 
 /* ID's */
@@ -105,6 +106,7 @@ footer {
   font-weight: 700;
   font-size: 1.3rem;
   text-align: center;
+  margin: 40px auto;
 }
 
 /* CLASSES */
@@ -258,7 +260,6 @@ footer {
 .bottom-link {
   margin: 0 15px;
   transition: ease-in 0.1s;
-  
 }
 
 .bottom-link:hover {
@@ -291,15 +292,22 @@ footer {
   top: 25px;
   left: calc(50% - 60px);
   padding: 10px;
-  background-color: var(--mineShaft);
+  background-color: black;
   border: 2px solid var(--tundora);
   border-radius: 100%;
   justify-content: center;
   align-items: center;
+  transition: ease 0.2s;
+}
+
+.bottom-logo .logo-cat:hover {
+  transform: scale(1.1);
+  background-image: url(./resources/salmon-cat.svg);
 }
 
 .sub-cont-about {
   justify-content: space-around;
+  margin: 5px 20px;
 }
 
 .sub-cont-about > * {
@@ -310,11 +318,41 @@ footer {
 .sub-cont-about h2 {
   text-transform: uppercase;
   color: white;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 .sub-cont-about p {
   font-size: 0.8rem;
   color: var(--pewter);
+}
+
+.sub-cont-about button {
+  background-color: var(--tundora);
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mineShaft);
+  height: 60px;
+}
+
+.social {
+  margin-left: 40px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  font-size: 0.6rem;
+  color: var(--pewter);
+  margin-right: 50px ;
+}
+
+.copyright .logo-cat {
+  transform: scale(0.4);
 }
 
 .first-row {
@@ -363,6 +401,47 @@ footer {
   line-height: 1.6rem;
   text-align: center;
   margin: 0 10%;
+}
+
+.social-icon {
+  width: 24px;
+  height: 22px;
+  background-size: 24px 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+}
+
+.facebook {
+  background-image: url(./resources/facebook-gray.svg);
+}
+
+.facebook:hover {
+  background-image: url(./resources/facebook.svg);
+}
+
+.twitter {
+  background-image: url(./resources/twitter-gray.svg);
+}
+
+.twitter:hover {
+  background-image: url(./resources/twitter.svg);
+}
+
+.instagram {
+  background-image: url(./resources/instagram-gray.svg);
+}
+
+.instagram:hover {
+  background-image: url(./resources/instagram.svg);
+}
+
+.tumblr {
+  background-image: url(./resources/tumblr-gray.svg);
+}
+
+.tumblr:hover {
+  background-image: url(./resources/tumblr.svg);
 }
 
 /* MODIFIERS */
@@ -457,7 +536,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   body {
-    grid-template-rows: 80px 1200px 300px;
+    grid-template-rows: 80px 1200px 350px;
   }
 
   nav {
@@ -512,10 +591,6 @@ footer {
     background-position: center;
     transition: ease-in 0.2s;
     background-image: url(./resources/cat-white.svg);
-  }
-
-  footer .logo-cat:hover {
-    background-image: url(./resources/salmon-cat.svg);
   }
 }
 
