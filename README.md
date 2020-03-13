@@ -16,7 +16,7 @@
 
 ### Check it online!
 
-  [Live Preview]()
+  [Live Preview](https://rawcdn.githack.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools/2f7f87239121565632114fc500f650615ad44edd/index.html)
 
 ### Contributions and issues are welcome!
 
