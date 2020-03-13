@@ -1,47 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ADOPTmeow</title>
-  </head>
-  
-  <body>
-    <nav class="bg-red-damask spread">
-      <div class="brand white center-y">
-        <a href="./index.html" class="flex font-big">
-          <div class="logo-cat"></div>
-          <span class="center-y"><span class="">adoptme</span><span class="">ow </span></span>
-        </a>
+<head>
+  <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADOPTmeow</title>
+</head>
+
+<body>
+  <nav class="bg-red-damask spread">
+    <div class="brand white center-y">
+      <a href="./index.html" class="flex">
+        <div class="logo-cat"></div>
+        <span class="center-y"><span class="">adoptme</span><span class="">ow </span></span>
+      </a>
+    </div>
+    <ul class="menu white flex center-y">
+      <li class="menu-link">
+        <a href="./results.html" class="upper font-sml flex">
+          <span class="icon m-glass"></span>
+          <span class="menu-text">Search</span></a>
+      </li>
+      <li class="menu-link">
+        <a href="./about.html" class="upper font-sml flex">
+          <span class="icon user"></span>
+          <span class="menu-text">About</span></a>
+      </li>
+      <li class="menu-link">
+        <a href="./lost.html" class="upper font-sml flex">
+          <span class="icon blog"></span>
+          <span class="menu-text">Blog</span></a>
+      </li>
+      <li class="menu-link">
+        <a href="./about.html" class="upper font-sml flex">
+          <span class="icon more"></span>
+          <span class="menu-text">More</span></a>
+      </li>
+    </ul>
+  </nav>
+  <main class="back-img center ">
+    <div class="main-search-box filter flex column">
+      <h1 class="title white font-big upper center ">
+        Find your next best friend here... just a search away.
+      </h1>
+      <div class="search-bar flex">
+        <form action="#" class="main-search center center-y flex column">
+          <label for="search-input" class="font-sml a-start upper">
+            Search by keyword
+          </label>
+          <div class="input-btn">
+            <input type="text" id="search-input" />
+            <button class="search-btn upper white">
+              search
+            </button>
+          </div>
+        </form>
       </div>
-      <ul class="menu white flex center-y">
-        <li class="menu-link">
-          <a href="./results.html" class="upper font-sml flex">
-            <span class="icon m-glass"></span>
-            <span class="menu-text">Search Shelters</span></a>
-        </li>
-        <li class="menu-link">
-          <a href="./about.html" class="upper font-sml flex">
-            <span class="icon user"></span>
-            <span class="menu-text">About</span></a>
-        </li>
-        <li class="menu-link">
-          <a href="./lost.html" class="upper font-sml flex">
-            <span class="icon blog"></span>
-            <span class="menu-text">Blog</span></a>
-        </li>
-        <li class="menu-link">
-          <a href="./about.html" class="upper font-sml flex">
-            <span class="icon more"></span>
-            <span class="menu-text">More</span></a>
-        </li>
+    </div>
+    <a href="#four-steps">
+      <div class="help flex">
+        How it works
+      </div>
+    </a>
+
+    <div class="explanation">
+      <div id="four-steps" class=" red-damask upper center center-y">
+        adoptmeow works in four simple steps
+      </div>
+
+      <div class="first-row">
+        <div class="step">
+          <div class="big-icon icon pet"></div>
+          <h2>1 - Search for your furry friend</h2>
+          <p>
+            It's simple. You can search for race, color, gender, age and/or
+            personality. For example, you can search for "I want a black
+            kitten", and we'll find you all underage cats of black fur! Also,
+            you could go to the Search button on the top menu to search
+            through the categories.
+          </p>
+        </div>
+        <div class="step">
+          <div class="big-icon icon form"></div>
+          <h2>2 - Let us know you</h2>
+          <p>
+            It's simple. You can search for race, color, gender, age and/or
+            personality. For example, you can search for "I want a black
+            kitten", and we'll find you all underage cats of black fur! Also,
+            you could go to the Search button on the top menu to search
+            through the categories.
+          </p>
+        </div>
+      </div>
+      <div class="second-row">
+        <div class="step">
+          <div class="big-icon icon map "></div>
+          <h2>3 - Give them a visit</h2>
+          <p>
+            It's simple. You can search for race, color, gender, age and/or
+            personality. For example, you can search for "I want a black
+            kitten", and we'll find you all underage cats of black fur! Also,
+            you could go to the Search button on the top menu to search
+            through the categories.
+          </p>
+        </div>
+        <div class="step">
+          <div class="big-icon icon cat-gray"></div>
+          <h2>4 - Bring your purrrfect friend home</h2>
+          <p>
+            It's simple. You can search for race, color, gender, age and/or
+            personality. For example, you can search for "I want a black
+            kitten", and we'll find you all underage cats of black fur! Also,
+            you could go to the Search button on the top menu to search
+            through the categories.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="bottom-logo center">
+      <a href="#top">
+        <div class="logo-cat"></div>
+      </a>
+    </div>
+    <div class="footer-nav flex white">
+      <ul class="nav-left flex">
+        <a href="#top">
+          <li class="bottom-link">Home</li>
+        </a>
+        <a href="./results.html">
+          <li class="bottom-link">Search</li>
+        </a>
+        <a href="./about.html">
+          <li class="bottom-link">About Us</li>
+        </a>
+        <a href="./lost.html">
+          <li class="bottom-link">Donate</li>
+        </a>
       </ul>
-    </nav>
-  <main></main>
-  <footer></footer>
+
+      <div class="spacer">s</div>
+
+      <ul class="nav-right flex">
+        <a href="./lost.html">
+          <li class="bottom-link">Facebook</li>
+        </a>
+        <a href="./lost.html">
+          <li class="bottom-link">Twitter</li>
+        </a>
+        <a href="./lost.html">
+          <li class="bottom-link">Blog</li>
+        </a>
+        <a href="./lost.html">
+          <li class="bottom-link">Google+</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="sub-cont-about flex">
+      <div class="subscribe upper">
+        <h2>Subscribe</h2>
+        <form action="#" class="main-search center center-y flex column">
+          <div class="input-btn">
+            <input type="text" id="search-input" />
+            <button class="search-btn upper white">
+              search
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>
+          Have a question? Talk to us! <br />
+          <a class="red-damask" href="mailto:send.a.meow@adoptmeow.org">
+            send.a.meow@adoptmeow.org
+          </a>
+        </p>
+      </div>
+      <div class="about">
+        <h2>About</h2>
+        <p>
+          We are a bridge between those who shelter a cat and those who want
+          to adopt one. Did you find an abandoned cat and can't keep it? We
+          help you find a guardian for it. You want a new purry furry friend?
+          Let us find one for you!
+          <a href="./about.html" class="red-damask">Learn more...</a>
+        </p>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <div class="social flex">
+        <a class="social-icon facebook" href="./lost.html"></a>
+        <a class="social-icon twitter" href="./lost.html"></a>
+        <a class="social-icon instagram" href="./lost.html"></a>
+        <a class="social-icon tumblr" href="./lost.html"></a>
+        <a class="social-icon linkedin" href="./lost.html"></a>
+      </div>
+      <span class="copyright upper"><span class="logo-cat"></span>adoptmeow &copy - all rights reserved. &nbsp powered
+        by &nbsp <a href="https://github.com/phfdonda"> phfdonda webdev </a></span>
+    </div>
+  </footer>
 </body>
 
 </html>

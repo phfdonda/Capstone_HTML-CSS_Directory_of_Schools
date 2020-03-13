@@ -106,7 +106,8 @@ footer {
   font-weight: 700;
   font-size: 1.3rem;
   text-align: center;
-  margin: 40px auto;
+  padding: 40px 0 20px 0;
+  margin: 0 auto;
 }
 
 /* CLASSES */
@@ -234,11 +235,11 @@ footer {
 
 .explanation {
   display: grid;
-  grid-template-rows: 50px 1fr 1fr 50px;
+  grid-template-rows: 120px 1fr 1fr 50px;
   grid-template-columns: 20px 1fr 1fr 20px;
   width: 100%;
   background-color: white;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .bottom-nav {
@@ -536,7 +537,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   body {
-    grid-template-rows: 80px 1200px 350px;
+    grid-template-rows: 80px 1300px 350px;
   }
 
   nav {
@@ -622,7 +623,7 @@ footer {
   }
 
   .explanation {
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 100px 1fr 200px;
   }
 
   .first-row {
