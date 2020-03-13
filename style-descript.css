@@ -3,7 +3,7 @@ main {
 }
 
 .wrapper {
-   padding: 50px 60px;
+  padding: 50px 60px;
 }
 
 .general-info {
@@ -59,7 +59,7 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
- body {
+  body {
     grid-template-rows: 80px 800px;
   }
 }
