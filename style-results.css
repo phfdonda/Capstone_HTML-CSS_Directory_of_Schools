@@ -1,0 +1,44 @@
+.main-search-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#n-of-results {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.result-display {
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.results {
+  padding-bottom: 50px;
+}
+
+.result {
+  padding: 15px 20px;
+  align-content: center;
+  text-align: center;
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+  .result-display {
+    flex-direction: row;
+
+  }
+
+  body {
+    grid-template-rows: 80px 700px 350px;
+  }
+}

@@ -337,6 +337,10 @@ select {
   transition: ease 0.2s;
 }
 
+.salmon-cat {
+  background-image: url(./resources/salmon-cat.svg);
+}
+
 .bottom-logo .logo-cat:hover {
   transform: scale(1.1);
   background-image: url(./resources/salmon-cat.svg);
@@ -615,6 +619,8 @@ select {
 .bg-red-damask:hover {
   background-color: var(--burntSienna);
 }
+
+
 
 /* MEDIA QUERIES */
 
