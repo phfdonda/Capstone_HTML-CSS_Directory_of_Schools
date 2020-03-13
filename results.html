@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-results.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADOPTmeow</title>
@@ -44,6 +45,8 @@
         </li>
       </ul>
     </nav>
+
+
     <main class="">
       <div class="main-search-box filter flex column">
         <div class="categories-search-bar bg-light-gray">
@@ -55,7 +58,7 @@
               Filter by City, Gender, Pattern, Color and Age:
             </label>
             <div class="categories">
-              <div class="flex column">
+              <div class="select flex column">
                 <label for="city" class="category-label a-start">
                   City:
                 </label>
@@ -67,8 +70,8 @@
                   <option value="belo horizonte">Belo Horizonte</option>
                 </select>
               </div>
-              <div class="flex column">
-                <label for="city" class="category-label a-start">
+              <div class="select flex column">
+                <label for="city" class="category-label upper a-start">
                   Gender:
                 </label>
                 <select id="gender" name="gender">
@@ -79,7 +82,7 @@
                   <option value="female">Female</option>
                 </select>
               </div>
-              <div class="flex column">
+              <div class="select flex column">
                 <label for="city" class="category-label a-start">
                   Pattern:
                 </label>
@@ -96,7 +99,7 @@
                   <option value="color point">Color Point</option>
                 </select>
               </div>
-              <div class="flex column">
+              <div class="select flex column">
                 <label for="city" class="category-label a-start">
                   Color:
                 </label>
@@ -115,79 +118,37 @@
                   <option value="fawn">Fawn</option>
                 </select>
               </div>
-              <div class="flex column">
+              <div class="select flex column">
                 <label for="city" class="category-label a-start">
-                  Color:
+                  Age:
                 </label>
                 <select id="age" name="age">
                   <option selected="selected" value="any age">Any Age</option>
                   <option value="kitten">Kitten</option>
                   <option value="young adult">Young Adult</option>
                   <option value="adult">Adult</option>
+                  <option value="old">Old Age</option>
                 </select>
               </div>
-
-              <button class="search-btn bg-steel-blue upper white">
-                search
+              <div class="buttons">
+              <button class="search-btn bg-steel-blue  white">
+                Search
               </button>
+              <button class="clear-filter-btn bg-porshe  white">
+                clear filter
+              </button>
+            </div>
             </div>
           </form>
         </div>
       </div>
 
-      <div class="explanation">
-        <div id="four-steps" class=" red-damask upper center center-y">
-          adoptmeow works in four simple steps
+      <div class="results">
+        <div id="n-of-results" class="tundora upper center center-y">
+          The Search has found 3 results:
         </div>
 
-        <div class="first-row">
-          <div class="step">
-            <div class="big-icon icon pet"></div>
-            <h2>1 - Search for your furry friend</h2>
-            <p>
-              It's simple. You can search for location, disability, color,
-              gender, age and/or personality. For example, you can search for "I
-              want a black kitten", and we'll find you all underage cats of
-              black fur! Also, you could go to the Search button on the top menu
-              to search through the categories.
-            </p>
-          </div>
-          <div class="step">
-            <div class="big-icon icon form"></div>
-            <h2>2 - Let us know you</h2>
-            <p>
-              It's simple. You can search for race, color, gender, age and/or
-              personality. For example, you can search for "I want a black
-              kitten", and we'll find you all underage cats of black fur! Also,
-              you could go to the Search button on the top menu to search
-              through the categories.
-            </p>
-          </div>
-        </div>
-        <div class="second-row">
-          <div class="step">
-            <div class="big-icon icon map "></div>
-            <h2>3 - Give them a visit</h2>
-            <p>
-              It's simple. You can search for race, color, gender, age and/or
-              personality. For example, you can search for "I want a black
-              kitten", and we'll find you all underage cats of black fur! Also,
-              you could go to the Search button on the top menu to search
-              through the categories.
-            </p>
-          </div>
-          <div class="step">
-            <div class="big-icon icon cat-gray"></div>
-            <h2>4 - Bring your purrrfect friend home</h2>
-            <p>
-              It's simple. You can search for race, color, gender, age and/or
-              personality. For example, you can search for "I want a black
-              kitten", and we'll find you all underage cats of black fur! Also,
-              you could go to the Search button on the top menu to search
-              through the categories.
-            </p>
-          </div>
-        </div>
+       
       </div>
     </main>
 

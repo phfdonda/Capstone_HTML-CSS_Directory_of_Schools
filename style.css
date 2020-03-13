@@ -91,6 +91,10 @@ footer {
   background-color: black;
 }
 
+select {
+  padding: 3px;
+}
+
 /* ID's */
 
 #search-input {
@@ -127,8 +131,6 @@ footer {
 .search-btn {
   border-radius: 3px;
 }
-
-/* TODO CHANGE HOVER COLOR EFFECT FOR THE MODIFIER CLASS */
 
 .bg-steel-blue:hover {
   background-color: var(--havelockBlue);
@@ -214,8 +216,9 @@ footer {
 }
 
 .main-search-box {
-  padding: 15% 10% 30px 10%;
+  margin-top: 80px;
   text-align: center;
+  padding: 2% 10%;
 }
 
 .help {
@@ -248,6 +251,7 @@ footer {
 }
 
 .all-categories-label {
+  
   padding: 20px;
   font-weight: 700;
   font-size: 1.2rem;
@@ -256,11 +260,22 @@ footer {
 
 .categories {
   display: flex;
-  justify-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  padding-left: 20px;
+}
+
+.select {
+  margin-top: 10px;
+  margin-right: 5px;
 }
 
 .category-label {
   display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .bottom-nav {
@@ -370,7 +385,7 @@ footer {
   align-items: center;
   font-size: 0.6rem;
   color: var(--pewter);
-  margin-right: 50px ;
+  margin-right: 50px;
 }
 
 .copyright .logo-cat {
@@ -398,7 +413,9 @@ footer {
 }
 
 .categories-search-bar {
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .input-btn {
@@ -469,6 +486,20 @@ footer {
   background-image: url(./resources/tumblr.svg);
 }
 
+.buttons {
+  margin-left: 10px;
+  margin-top: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.buttons .search-btn,
+.buttons .clear-filter-btn {
+  height: 100%;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
 /* MODIFIERS */
 
 .bg-white-transp {
@@ -477,6 +508,14 @@ footer {
 
 .bg-light-gray {
   background-color: #eee;
+}
+
+.bg-porshe {
+  background-color: var(--porsche);
+}
+
+.bg-porshe:hover {
+  background-color: #fac77f;
 }
 
 .bg-steel-blue {
@@ -551,6 +590,10 @@ footer {
 
 .white {
   color: white;
+}
+
+.tundora {
+  color: var(--tundora);
 }
 
 .mine-shaft {
@@ -642,6 +685,10 @@ footer {
 
   footer {
     display: block;
+  }
+
+  .categories {
+    flex-direction: row;
   }
 
   .font-big {
