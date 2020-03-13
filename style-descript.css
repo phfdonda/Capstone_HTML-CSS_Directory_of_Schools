@@ -58,9 +58,8 @@ main {
   object-fit: cover;
 }
 
-
 @media only screen and (min-width: 768px) {
-  body {
-    grid-template-rows: 80px 800px 350px;
+ body {
+    grid-template-rows: 80px 800px;
   }
 }
