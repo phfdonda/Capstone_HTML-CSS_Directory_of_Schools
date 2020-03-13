@@ -588,6 +588,10 @@ select {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .upper {
   text-transform: uppercase;
 }
