@@ -113,7 +113,7 @@ footer {
 /* CLASSES */
 
 .main-search {
-  width: 80%;
+  width: 90%;
 }
 
 .menu {
@@ -126,11 +126,16 @@ footer {
 
 .search-btn {
   border-radius: 3px;
-  background-color: var(--redDamask);
 }
 
-.search-btn:hover {
-  background-color: var(--burntSienna);
+/* TODO CHANGE HOVER COLOR EFFECT FOR THE MODIFIER CLASS */
+
+.bg-steel-blue:hover {
+  background-color: var(--havelockBlue);
+}
+
+.nav-bar {
+  background-color: var(--redDamask);
 }
 
 .back-img {
@@ -240,6 +245,22 @@ footer {
   width: 100%;
   background-color: white;
   margin-top: 100px;
+}
+
+.all-categories-label {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #949494;
+}
+
+.categories {
+  display: flex;
+  justify-items: flex-start;
+}
+
+.category-label {
+  display: inline-block;
 }
 
 .bottom-nav {
@@ -369,12 +390,15 @@ footer {
   position: relative;
   padding: 30px;
   margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
 }
 
 .search-bar form {
   padding: 5px;
+}
+
+.categories-search-bar {
+  padding: 20px;
 }
 
 .input-btn {
@@ -446,6 +470,18 @@ footer {
 }
 
 /* MODIFIERS */
+
+.bg-white-transp {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-light-gray {
+  background-color: #eee;
+}
+
+.bg-steel-blue {
+  background-color: var(--steelBlue);
+}
 
 .flex {
   display: flex;
@@ -531,6 +567,10 @@ footer {
 
 .bg-red-damask {
   background-color: var(--redDamask);
+}
+
+.bg-red-damask:hover {
+  background-color: var(--burntSienna);
 }
 
 /* MEDIA QUERIES */
