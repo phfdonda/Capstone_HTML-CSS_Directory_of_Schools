@@ -1,6 +1,6 @@
 # Using Bootstrap
 
- ## This page is my Capstone project for the Microverse's HTML and CSS course curriculum. The design was inspired on the work of Mathew Njuguna and others on Behance, specially this project: [patashuleke](https://www.behance.net/gallery/25563385/PatashuleKE). I have learned a lot and am very thankful!
+ ## This page is my Capstone project for the Microverse's HTML and CSS course curriculum. The design was inspired on the work of [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and others on Behance, specially this project: [patashuleke](https://www.behance.net/gallery/25563385/PatashuleKE). I have learned a lot and am very thankful!
 
 
 ![Screenshot](./resources/screenshot-main-page.jpg)
