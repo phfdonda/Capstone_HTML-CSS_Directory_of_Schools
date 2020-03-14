@@ -14,6 +14,7 @@ body {
   width: 100%;
   border-radius: 100%;
 }
+
 .cat-eng:hover {
   opacity: 0.8;
 }
