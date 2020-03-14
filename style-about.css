@@ -7,6 +7,7 @@ p {
   position: relative;
   display: flex;
   flex-direction: column;
+  text-align: center;
   height: 400px;
   width: 100%;
   margin: 0;
@@ -54,18 +55,20 @@ p {
 
 @media only screen and (min-width: 768px) {
   body {
-    grid-template-rows: 80px 1300px 350px;
+    grid-template-rows: 80px 900px 350px;
   }
 
   .feature {
     display: block;
     height: 280px;
     flex-direction: row;
+    text-align: left;
   }
 
   .feature img {
     position: relative;
-    margin-left: 50px;
+     
+    margin-left: 100px;
     top: 10px;
     right: 20px;
     width: 200px;
