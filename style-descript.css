@@ -3,9 +3,8 @@ main {
 }
 
 body {
-    grid-template-rows: 80px 800px;
-  }
-
+  grid-template-rows: 80px 800px;
+}
 
 .social-icon {
   transform: scale(1.5);
@@ -46,7 +45,7 @@ body {
   font-size: 1.5rem;
 }
 
-.shelter-contact a{
+.shelter-contact a {
   color: #606060;
 }
 
@@ -76,7 +75,6 @@ body {
   margin-left: auto;
   font-size: 0.9rem;
 }
-
 
 .shelter-contact {
   display: grid;
@@ -129,29 +127,28 @@ body {
   }
 
   .social-icon {
-  transform: scale(1);
-}
+    transform: scale(1);
+  }
 
-.google-map {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  top: 15px;
-  margin-left: 30px;
-}
+  .google-map {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 15px;
+    margin-left: 30px;
+  }
 
-.from {
-  margin: 0;
-}
+  .from {
+    margin: 0;
+  }
 
   .shelter-contact {
-  display: grid;
-  grid-template-rows: 40px;
-  grid-template-columns: repeat(5, 1fr);
-}
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: repeat(5, 1fr);
+  }
 
-.more-details {
-  padding-left: 20px;
-}
-
+  .more-details {
+    padding-left: 20px;
+  }
 }
