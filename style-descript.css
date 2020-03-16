@@ -45,7 +45,11 @@ main {
 }
 
 .shelter-contact {
-  justify-content: flex-end;
+  display: grid;
+  justify-items: self-end;
+
+  grid-template-rows: repeat(3, 30px);
+  grid-template-columns: 1fr 1fr;
 }
 
 .shelter-contact div {
@@ -62,4 +66,11 @@ main {
   body {
     grid-template-rows: 80px 800px;
   }
+
+  .shelter-contact {
+  display: grid;
+  grid-template-rows: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 }
