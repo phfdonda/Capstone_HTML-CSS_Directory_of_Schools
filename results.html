@@ -50,16 +50,24 @@
       <div class="main-search-box filter flex column">
         <div class="categories-search-bar bg-light-gray">
           <form action="#" class="main-search flex column">
+            <h1 class="no-show">Results</h1>
             <h2 class="all-categories-label a-start center">
-              Filter by City, Gender, Pattern, Color and Age:
+              Filter by shelter, city, gender, pattern, color and age:
             </h2>
             <div class="categories">
+              <div class="select flex column">
+                <label for="shelter" class="category-label a-start">
+                  Shelter:*
+                </label>
+                <input type="text" />
+              </div>
               <div class="select flex column">
                 <label for="city" class="category-label a-start">
                   City:
                 </label>
                 <select id="city" name="city">
-                  <option selected="selected" value="any city">Any City</option>
+                  <option selected="selected" value="choose a value"></option>
+                  <option value="any city">Any City</option>
                   <option value="curitiba">Curitiba</option>
                   <option value="rio de janeiro">Rio de Janeiro</option>
                   <option value="sao paulo">São Paulo</option>
@@ -71,9 +79,8 @@
                   Gender:
                 </label>
                 <select id="gender" name="gender">
-                  <option selected="selected" value="any gender"
-                    >Any Gender</option
-                  >
+                  <option selected="selected" value="choose a value"></option>
+                  <option value="any gender">Any Gender</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                 </select>
@@ -83,9 +90,8 @@
                   Pattern:
                 </label>
                 <select id="pattern" name="pattern">
-                  <option selected="selected" value="any pattern"
-                    >Any Pattern</option
-                  >
+                  <option selected="selected" value="choose a value"></option>
+                  <option value="any pattern">Any Pattern</option>
                   <option value="solid">Solid</option>
                   <option value="bi-color">Bi-Color</option>
                   <option value="spotted">Spotted</option>
@@ -100,9 +106,9 @@
                   Color:
                 </label>
                 <select id="color" name="color">
-                  <option selected="selected" value="any color"
-                    >Any Color</option
-                  >
+                  <option selected="selected" value="choose a value"></option>
+
+                  <option value="any color">Any Color</option>
                   <option value="white">White</option>
                   <option value="black">Black</option>
                   <option value="red">Red</option>
@@ -119,7 +125,9 @@
                   Age:
                 </label>
                 <select id="age" name="age">
-                  <option selected="selected" value="any age">Any Age</option>
+                  <option selected="selected" value="choose a value"></option>
+
+                  <option value="any age">Any Age</option>
                   <option value="kitten">Kitten</option>
                   <option value="young adult">Young Adult</option>
                   <option value="adult">Adult</option>
@@ -131,6 +139,7 @@
                   Search
                 </button>
                 <button class="clear-filter-btn bg-porshe  white">
+                  <img src="./resources/write-white.png" alt="#">
                   clear filter
                 </button>
               </div>
@@ -141,9 +150,9 @@
 
       <div class="results">
         <div id="n-of-results" class="tundora upper">
-          The Search has found 3 results:
+          The Search has found 3 result(s):
         </div>
-        <div class="result-display flex">
+        <div class="result-display">
           <a href="./shelter-descript.html">
             <div class="result salmon-cat bg-red-damask">
               <h2>Oliver</h2>
