@@ -16,7 +16,7 @@
 ##### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name of shelter, or by characteristic of the cat you're looking for.
 
 ### Some of the original images were these:
-![Screenshot](./resources/result-original.png)
+![Screenshot](./resources/results-original.png)
 ![Screenshot](./resources/main-original.png)
 
   ### AUTHOR - Pedro Henrique Ferreira Donda
