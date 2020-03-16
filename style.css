@@ -450,11 +450,26 @@ select {
   margin: 0 15px;
 }
 
+.compass {
+    background-image: url(./resources/compass.svg);
+}
+
+.next {
+    background-image: url(./resources/next.svg);
+}
+
+.mail {
+    background-image: url(./resources/mail.svg);
+}
+.tel {
+  background-image: url(./resources/phone.svg);
+}
 .facebook {
   background-image: url(./resources/facebook-gray.svg);
 }
 
-.facebook:hover {
+.facebook:hover,
+.fb-blue {
   background-image: url(./resources/facebook.svg);
 }
 
@@ -462,7 +477,8 @@ select {
   background-image: url(./resources/twitter-gray.svg);
 }
 
-.twitter:hover {
+.twitter:hover,
+.tw-blue {
   background-image: url(./resources/twitter.svg);
 }
 
@@ -470,7 +486,8 @@ select {
   background-image: url(./resources/instagram-gray.svg);
 }
 
-.instagram:hover {
+.instagram:hover,
+.insta-blue {
   background-image: url(./resources/instagram.svg);
 }
 

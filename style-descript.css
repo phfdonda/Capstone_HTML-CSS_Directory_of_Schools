@@ -3,8 +3,13 @@ main {
 }
 
 body {
-    grid-template-rows: 80px 600px;
+    grid-template-rows: 80px 800px;
   }
+
+
+.social-icon {
+  transform: scale(1.5);
+}
 
 .wrapper {
   padding: 50px 60px;
@@ -35,8 +40,32 @@ body {
   padding: 10px;
 }
 
+.directions {
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.shelter-contact a{
+  color: #606060;
+}
+
 .answer {
+  font-weight: 700;
   color: #509ad8;
+}
+
+.more-details {
+  background-color: #f5f5f5;
+  color: #606060;
+  padding-left: 20px;
+  align-items: center;
+  height: 80px;
+}
+
+.more-details:hover {
+  color: black;
+  background-color: #f0f0f0;
 }
 
 .apply {
@@ -48,12 +77,13 @@ body {
   font-size: 0.9rem;
 }
 
+
 .shelter-contact {
   display: grid;
-  justify-items: self-end;
-
-  grid-template-rows: repeat(3, 30px);
-  grid-template-columns: 1fr 1fr;
+  justify-items: self-start;
+  align-items: center;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: 1fr;
 }
 
 .shelter-contact div {
@@ -68,13 +98,21 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    grid-template-rows: 80px 800px;
+    grid-template-rows: 80px 1000px;
   }
+
+  .social-icon {
+  transform: scale(1);
+}
 
   .shelter-contact {
   display: grid;
-  grid-template-rows: 30px;
+  grid-template-rows: 40px;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.more-details {
+  padding-left: 20px;
 }
 
 }
