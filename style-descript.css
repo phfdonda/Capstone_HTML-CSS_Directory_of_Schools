@@ -96,22 +96,24 @@ body {
 
 .google-map {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 15px;
   margin-left: 30px;
-}
-
-.from,
-.get-directions {
 }
 
 .from {
   color: gray;
   background-color: white;
-  padding: 10px 60px 10px 5px;
+  padding: 10px 100px 10px 5px;
+  margin: 0 0 10px 15px;
 }
 
 .get-directions {
-
+  color: #444;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #e9e7e4;
 }
 
 .map-directions {
@@ -128,6 +130,18 @@ body {
 
   .social-icon {
   transform: scale(1);
+}
+
+.google-map {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 15px;
+  margin-left: 30px;
+}
+
+.from {
+  margin: 0;
 }
 
   .shelter-contact {
