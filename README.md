@@ -20,10 +20,11 @@
 
 ### The specifications of the project were as follows:
 
-#### 1- This is a real-world-like project with a design made by a professional. I didn't have an exact page to just inspect the code and have tips of how to build it; I had only the design to be inspired upon. I was expected to select, with my own knowledge, the proper technologies and techniques to achieve the business specifications.
+#### 1- This is a real-world-like project with a design made by a professional. 
+I didn't have an exact page to just inspect the code and have tips of how to build it; I had only the design to be inspired upon. I was expected to select, with my own knowledge, the proper technologies and techniques to achieve the business specifications.
 
 #### 2- I had to create three pages: 
-- the main page (search page), with a link to the results page
+- the main page (search page), with a link to the results page.
 - the search results page, with a list of schools (or, in this case, cat shelters) each with a link to the detail shelter page.
 - the detail shelter page.
 
@@ -33,7 +34,7 @@
 - tablet: up to 1024px
 - desktop: from 1024px
 
-#### 4- You should follow the guidelines of the given design, including:
+#### 4- I had to follow the guidelines of the given design, including:
 
 - colors (they are not explicitly in the design, but you can pick them from the design page)
 - typographies: font face, size and weight (use a similar one given the design)
