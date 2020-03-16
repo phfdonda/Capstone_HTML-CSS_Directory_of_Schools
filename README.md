@@ -29,7 +29,7 @@
 
 ### Check it online!
 
-  [Live Preview](https://rawcdn.githack.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools/0980f53f028988db11534dfa0225635834dc5b88/index.html)
+ # [Live Preview](https://rawcdn.githack.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools/0980f53f028988db11534dfa0225635834dc5b88/index.html)
 
 ### The specifications of the project were as follows:
 
