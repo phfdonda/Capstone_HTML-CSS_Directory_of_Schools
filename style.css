@@ -451,19 +451,21 @@ select {
 }
 
 .compass {
-    background-image: url(./resources/compass.svg);
+  background-image: url(./resources/compass.svg);
 }
 
 .next {
-    background-image: url(./resources/next.svg);
+  background-image: url(./resources/next.svg);
 }
 
 .mail {
-    background-image: url(./resources/mail.svg);
+  background-image: url(./resources/mail.svg);
 }
+
 .tel {
   background-image: url(./resources/phone.svg);
 }
+
 .facebook {
   background-image: url(./resources/facebook-gray.svg);
 }
