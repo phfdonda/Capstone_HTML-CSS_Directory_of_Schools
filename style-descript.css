@@ -2,6 +2,10 @@ main {
   padding: 2%;
 }
 
+body {
+    grid-template-rows: 80px 600px;
+  }
+
 .wrapper {
   padding: 50px 60px;
 }
