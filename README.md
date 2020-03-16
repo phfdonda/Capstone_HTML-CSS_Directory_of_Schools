@@ -6,16 +6,18 @@
 
 ### Main Page
 
-![Screenshot](./resources/screenshot-main-page.jpg)]
+![Screenshot](./resources/screenshot-main-page.jpg)
 
 ##### This page is meant to allow the user to search for cats or shelters using keywords. If he or she doesn't know how to navigate the site, there's a button just below the search bar that'll scroll down, taking the user to a part of the website that explains everything.
 
 ### Categories and Results Page
-![Screenshot](./resources/results-screenshot.jpg)]
+![Screenshot](./resources/results-screenshot.jpg)
 
 ##### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name of shelter, or by characteristic of the cat you're looking for.
 
-
+### Some of the original images were these:
+![Screenshot](./resources/results-original.png)
+![Screenshot](./resources/main-original.png)
 
   ### AUTHOR - Pedro Henrique Ferreira Donda
     GitHub: https://github.com/phfdonda
@@ -27,7 +29,7 @@
 
 ### Check it online!
 
-  [Live Preview](https://rawcdn.githack.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools/0980f53f028988db11534dfa0225635834dc5b88/index.html)
+ # [Live Preview](https://rawcdn.githack.com/phfdonda/Capstone_HTML-CSS_Directory_of_Schools/0980f53f028988db11534dfa0225635834dc5b88/index.html)
 
 ### The specifications of the project were as follows:
 
@@ -47,9 +49,9 @@ I didn't have an exact page to just inspect the code and have tips of how to bui
 
 #### 4- I had to follow the guidelines of the given design, including:
 
-- colors (they are not explicitly in the design, but you can pick them from the design page)
-- typographies: font face, size and weight (use a similar one given the design)
-- layout: composition and space between elements, for the 3 given screen sizes
+- colors (they are not explicitly in the design, but I could pick them from the design page)
+- typographies: font face, size and weight (I could use a similar one given on the design)
+- layout: composition and space between elements, for the 3 given screen sizes;
 
 
 ### Contributions and issues are welcome!
