@@ -8,6 +8,13 @@
 
 ![Screenshot](./resources/screenshot-main-page.jpg)]
 
+##### This page is meant to allow the user to search for cats or shelters using keywords. If he or she doesn't know how to navigate the site, there's a button just below the search bar that'll scroll down, taking the user to a part of the website that explains everything.
+
+### Categories and Results Page
+![Screenshot](./resources/results-screenshot.jpg)]
+
+##### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name of shelter, or by characteristic of the cat you're looking for.
+
 
 
   ### AUTHOR - Pedro Henrique Ferreira Donda
