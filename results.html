@@ -2,15 +2,259 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style-results.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADOPTmeow</title>
   </head>
 
   <body>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <nav class="nav-bar spread">
+      <div class="brand white center-y">
+        <a href="./index.html" class="flex">
+          <div class="logo-cat"></div>
+          <span class="center-y"
+            ><span class="">adoptme</span><span class="">ow </span></span
+          >
+        </a>
+      </div>
+      <ul class="menu white flex center-y">
+        <li class="menu-link">
+          <a href="./results.html" class="upper font-sml flex">
+            <span class="icon m-glass"></span>
+            <span class="menu-text">Search</span></a
+          >
+        </li>
+        <li class="menu-link">
+          <a href="./about.html" class="upper font-sml flex">
+            <span class="icon user"></span>
+            <span class="menu-text">About</span></a
+          >
+        </li>
+        <li class="menu-link">
+          <a href="./lost.html" class="upper font-sml flex">
+            <span class="icon blog"></span>
+            <span class="menu-text">Blog</span></a
+          >
+        </li>
+        <li class="menu-link">
+          <a href="./about.html" class="upper font-sml flex">
+            <span class="icon more"></span>
+            <span class="menu-text">More</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main class="">
+      <div class="main-search-box filter flex column">
+        <div class="categories-search-bar bg-light-gray">
+          <form action="#" class="main-search flex column">
+            <h1 class="no-show">Results</h1>
+            <h2 class="all-categories-label a-start center">
+              Filter by shelter name, city, gender, pattern, color and age:
+            </h2>
+            <div class="categories">
+              <div class="select flex column">
+                <label for="shelter" class="category-label a-start">
+                  Shelter:*
+                </label>
+                <input type="text" id="shelter"/>
+              </div>
+              <div class="select flex column">
+                <label for="city" class="category-label a-start">
+                  City:
+                </label>
+                <select id="city" name="city">
+                  <option value="">&nbsp;</option>
+                  <option value="any city">Any City</option>
+                  <option value="curitiba">Curitiba</option>
+                  <option value="rio de janeiro">Rio de Janeiro</option>
+                  <option value="sao paulo">São Paulo</option>
+                  <option value="belo horizonte">Belo Horizonte</option>
+                </select>
+              </div>
+              <div class="select flex column">
+                <label for="city" class="category-label upper a-start">
+                  Gender:
+                </label>
+                <select id="gender" name="gender">
+                  <option value="">&nbsp;</option>
+                  <option value="any gender">Any Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="select flex column">
+                <label for="city" class="category-label a-start">
+                  Pattern:
+                </label>
+                <select id="pattern" name="pattern">
+                  <option value="">&nbsp;</option>
+                  <option value="any pattern">Any Pattern</option>
+                  <option value="solid">Solid</option>
+                  <option value="bi-color">Bi-Color</option>
+                  <option value="spotted">Spotted</option>
+                  <option value="tabby">Tabby</option>
+                  <option value="tortoiseshell">Tortoiseshell</option>
+                  <option value="calico">Calico</option>
+                  <option value="color point">Color Point</option>
+                </select>
+              </div>
+              <div class="select flex column">
+                <label for="city" class="category-label a-start">
+                  Color:
+                </label>
+                <select id="color" name="color">
+                  <option value="">&nbsp;</option>
+
+                  <option value="any color">Any Color</option>
+                  <option value="white">White</option>
+                  <option value="black">Black</option>
+                  <option value="red">Red</option>
+                  <option value="gray">Gray</option>
+                  <option value="cream">Cream</option>
+                  <option value="brown">Brown</option>
+                  <option value="gray">Gray</option>
+                  <option value="cinammon">Cinnammon</option>
+                  <option value="fawn">Fawn</option>
+                </select>
+              </div>
+              <div class="select flex column">
+                <label for="city" class="category-label a-start">
+                  Age:
+                </label>
+                <select id="age" name="age">
+                <option value="">&nbsp;</option>
+
+                  <option value="any age">Any Age</option>
+                  <option value="kitten">Kitten</option>
+                  <option value="young adult">Young Adult</option>
+                  <option value="adult">Adult</option>
+                  <option value="old">Old Age</option>
+                </select>
+              </div>
+              <div class="buttons">
+                <button class="search-btn bg-steel-blue  white">
+                  Search
+                </button>
+                <button class="clear-filter-btn bg-porshe  white">
+                  <img src="./resources/write-white.png" alt="#">
+                  clear filter
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="results">
+        <div id="n-of-results" class="tundora upper">
+          The Search has found 3 result(s):
+        </div>
+        <div class="result-display">
+          <a href="./shelter-descript.html">
+            <div class="result salmon-cat bg-red-damask">
+              <h2>Oliver</h2>
+              <p>
+                A sweet ginger kitten of green eyes. He loves to take a nap
+                under the most unexepected things!
+              </p>
+            </div>
+          </a>
+          <a href="./shelter-descript.html">
+            <div class="result salmon-cat bg-red-damask">
+              <h2>Panther</h2>
+              <p>
+                A smart black kitten of exotic grayish eyes. He's really into
+                playing with your fingers, so beware!
+              </p>
+            </div>
+          </a>
+          <a href="./shelter-descript.html">
+            <div class="result salmon-cat bg-red-damask">
+              <h2>Doodle</h2>
+              <p>
+                A white kitten with streaks of grey, and beautiful blue eyes.
+                She's really shy and meditative, so you might have to buy her
+                attention with some snacks.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="bottom-logo center">
+        <a href="#top">
+          <div class="logo-cat"></div>
+        </a>
+      </div>
+      <div class="footer-nav flex white">
+        <ul class="nav-left flex">
+          <li><a class="bottom-link" href="#top">Home</a></li>
+          <li><a class="bottom-link" href="./results.html">Search</a></li>
+          <li><a class="bottom-link" href="./about.html">About Us</a></li>
+          <li><a class="bottom-link" href="./lost.html">Donate</a></li>
+        </ul>
+
+        <div class="spacer">s</div>
+
+        <ul class="nav-right flex">
+          <li><a class="bottom-link" href="./lost.html">Facebook</a></li>
+          <li><a class="bottom-link" href="./lost.html">Twitter</a></li>
+          <li><a class="bottom-link" href="./lost.html">Blog</a></li>
+          <li><a class="bottom-link" href="./lost.html">Google+</a></li>
+        </ul>
+      </div>
+
+      <div class="sub-cont-about flex">
+        <div class="subscribe upper">
+          <h2>Subscribe</h2>
+          <form action="#" class="main-search center center-y flex column">
+            <div class="input-btn">
+              <input type="text" id="search-input-bottom" />
+              <button class="search-btn upper white">
+                search
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="contact">
+          <h2>Contact</h2>
+          <p>
+            Have a question? Talk to us! <br />
+            <a class="red-damask" href="mailto:send.a.meow@adoptmeow.org">
+              send.a.meow@adoptmeow.org
+            </a>
+          </p>
+        </div>
+        <div class="about">
+          <h2>About</h2>
+          <p>
+            We are a bridge between those who shelter a cat and those who want
+            to adopt one. Did you find an abandoned cat and can't keep it? We
+            help you find a guardian for it. You want a new purry furry friend?
+            Let us find one for you!
+            <a href="./about.html" class="red-damask">Learn more...</a>
+          </p>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="social flex">
+          <a class="social-icon facebook" href="./lost.html"></a>
+          <a class="social-icon twitter" href="./lost.html"></a>
+          <a class="social-icon instagram" href="./lost.html"></a>
+          <a class="social-icon tumblr" href="./lost.html"></a>
+          <a class="social-icon linkedin" href="./lost.html"></a>
+        </div>
+        <span class="copyright upper"
+          ><span class="logo-cat"></span>adoptmeow &copy; - all rights reserved.
+          &nbsp; powered by &nbsp;
+          <a href="https://github.com/phfdonda"> phfdonda webdev </a></span
+        >
+      </div>
+    </footer>
   </body>
 </html>

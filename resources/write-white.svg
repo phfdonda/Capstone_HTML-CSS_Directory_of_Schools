@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   enable-background="new 0 0 1000 1000"
+   xml:space="preserve"
+   id="svg8"
+   sodipodi:docname="write-white.svg"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="704"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="0.236"
+   inkscape:cx="500"
+   inkscape:cy="500"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg8" />
+<metadata
+   id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon <rdf:RDF><cc:Work
+     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
+<g
+   id="g6"
+   style="fill:#ffffff"><path
+     d="M978.5,115.6l-94.1-94.1c-15.7-15.7-41.2-15.7-58.8,2l-45.1,45.1l151,151l45.1-45.1C994.2,156.8,994.2,131.3,978.5,115.6z M864.8,799.8c0,52.9-43.1,94.1-94.1,94.1H202.1c-52.9,0-94.1-43.1-94.1-94.1V231.3c0-52.9,43.1-94.1,94.1-94.1h376.4l94.1-94.1H168.8C80.6,41.1,10,111.7,10,199.9v633.2C10,919.4,80.6,990,168.8,990H802c88.2,0,158.8-70.6,158.8-158.8V325.4l-96.1,96.1V799.8L864.8,799.8z M907.9,241.1l-151-151L423.7,421.5l151,151L907.9,241.1z M341.3,654.8L553.1,594l-151-151L341.3,654.8L341.3,654.8z"
+     id="path4"
+     style="fill:#ffffff" /></g>
+</svg>

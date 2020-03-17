@@ -1,0 +1,154 @@
+main {
+  padding: 2%;
+}
+
+body {
+  grid-template-rows: 80px 800px;
+}
+
+.social-icon {
+  transform: scale(1.5);
+}
+
+.wrapper {
+  padding: 50px 60px;
+}
+
+.general-info {
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.name {
+  font-size: 2rem;
+  color: #f15838;
+  padding-bottom: 10px;
+}
+
+.info {
+  color: #444;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.directions {
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.shelter-contact a {
+  color: #606060;
+}
+
+.answer {
+  font-weight: 700;
+  color: #509ad8;
+}
+
+.more-details {
+  background-color: #f5f5f5;
+  color: #606060;
+  padding-left: 20px;
+  align-items: center;
+  height: 80px;
+}
+
+.more-details:hover {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.apply {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  width: 80px;
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+
+.shelter-contact {
+  display: grid;
+  justify-items: self-start;
+  align-items: center;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: 1fr;
+}
+
+.shelter-contact div {
+  margin: 10px;
+}
+
+.map {
+  position: relative;
+}
+
+.google-map {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 15px;
+  margin-left: 30px;
+}
+
+.from {
+  color: gray;
+  background-color: white;
+  padding: 10px 100px 10px 5px;
+  margin: 0 0 10px 15px;
+}
+
+.get-directions {
+  color: #444;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #e9e7e4;
+}
+
+.map-directions {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    grid-template-rows: 80px 900px;
+  }
+
+  .social-icon {
+    transform: scale(1);
+  }
+
+  .google-map {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 15px;
+    margin-left: 30px;
+  }
+
+  .from {
+    margin: 0;
+  }
+
+  .shelter-contact {
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .more-details {
+    padding-left: 20px;
+  }
+}

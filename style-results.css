@@ -1,0 +1,68 @@
+.main-search-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid #97a3a4;
+  padding: 5px;
+}
+
+#n-of-results {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.result-display {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px 250px 25px;
+  grid-gap: 10px;
+}
+
+select {
+  padding: 5px 10px 5px 5px;
+  background-color: white;
+  border: 1px solid #97a3a4;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 16px 11px;
+  background-image: url(./resources/Arrow-down-blue-white.png);
+}
+
+.results {
+  padding-bottom: 50px;
+}
+
+.result {
+  padding: 15px 20px;
+  align-content: center;
+  text-align: center;
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+  .result-display {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+  body {
+    grid-template-rows: 80px 600px 350px;
+  }
+}
